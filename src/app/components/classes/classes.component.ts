@@ -21,6 +21,7 @@ export class ClassesComponent implements OnInit {
 
   ejecutar() {
     this.loading = true;
-    setTimeout( () => this.loading = false, 3000 )
+    setTimeout( () => this.loading = false, 3000 );
   }
+
 }
