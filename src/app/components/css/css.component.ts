@@ -3,8 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-css',
   template: `
-    <p>
-      css works!
+    <p class="mt-3">
+      Demostracion de aplicacion clase rojo en el componente
     </p>
   `,
   styles: [`
